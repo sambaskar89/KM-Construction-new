@@ -154,7 +154,7 @@ justify-content: space-between;
 
 
 
-@media (max-width: 1600px) {
+@media (max-width: 1700px) {
   .contactus-2 {
     margin-left: 10%;
     margin-right: 10%;
@@ -168,7 +168,8 @@ justify-content: space-between;
 margin-right: 30px;
   }
   .contactus-2-top-1 img,.contactus-2-top-2 img,.contactus-2-top-3 img,{
-    width: 100%;
+    width: 80px;
+    height: 80px;
   }
   .contactus-2-top-1 h6,.contactus-2-top-1 h6,.contactus-2-top-1 h6{
     width: 100%;
