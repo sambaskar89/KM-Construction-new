@@ -56,7 +56,21 @@
   }
 
 
+  @media (max-width: 1700px) and (min-width: 1400px) {
+    .constructionworks-2-content1 img {
+        max-width: 500px;
+        height: 350px;
+    }
 
+    .constructionworks-2-content1 p {
+        font-size: 14px;
+        padding-left: 20px;
+    }
+
+    .constructionworks-2-paragraph {
+        width: 450px;
+    }
+}
 
 
   /* Media query for medium screens */

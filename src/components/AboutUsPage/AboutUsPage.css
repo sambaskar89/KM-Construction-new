@@ -288,11 +288,31 @@
     /* background-color: orange; /* Change the color of the underline */
    
 
+/* Media query for screen sizes between 1700px and 1400px */
+@media (max-width: 1700px) and (min-width: 1400px) {
+  .aboutus-2-content1 {
+      padding-left: 0px; /* Add padding to the container to ensure space between the image and paragraph */
+  }
 
+  .aboutus-2-content1 img {
+      max-width: 450px;
+      height: 300px;
+  }
+
+  .aboutus-2-content1 p {
+      font-size: 15px;
+      padding-left: 40px; /* Add padding to ensure paragraph text doesn't touch the image */
+      width: 600px;
+  }
+
+  .aboutus-2-paragraph {
+      
+  }
+}
 
     /* Media query for medium screens */
   @media screen and (max-width: 1400px) {
-
+    
     .aboutus-1 h1{
       color: white; 
       font-size: 50px;
